@@ -1,0 +1,120 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    text-align: left;
+    /* for print version please AJUST below  css setting */
+    background: rgb(204,204,204);
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    color: brown;
+    text-decoration:none;
+}
+.page {
+    /* for print version please AJUST below  css setting */
+    width: 20.2cm;
+    height: 29.7cm;
+    
+    padding: 10px 30px;
+    background: white;
+    /* for print version please AJUST below  css setting */
+    margin: 80px auto;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);    
+}
+#page1{
+    margin: 0 auto;
+}
+@media only screen and (max-width: 700px) {
+    .page {
+        width: 55rem;
+        height: 105rem;  
+    }
+  }
+header{
+    padding:1rem 0 0 0;
+}
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin:0;
+}
+header p{
+    font-size: 0.95rem;
+    margin:0.1rem 0 0 0;
+}
+section{
+    margin: 1rem 0 0 0;
+}
+section p{
+    line-height: 1.1rem;
+    margin:6px 0;
+}
+section .heading{
+    font-size: 2rem;
+    font-weight:normal;
+    border-bottom: 1px solid rgb(58, 57, 57);
+    margin-bottom: 0.5rem;
+}
+
+.individual-lv3-element{
+    position: relative;
+    margin: 0.4rem 0 0 0;
+}
+.individual-lv3-element h2,.individual-lv3-element h3,.individual-lv3-element h4,.individual-lv3-element ul,.individual-lv3-element p{
+    margin: 0;
+}
+.individual-lv3-element h2{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.individual-lv3-element h3{
+    font-size:1rem;
+    font-weight: normal;
+    margin-bottom: 0.2rem;
+}
+.individual-lv3-element h4 { 
+    position: absolute; 
+    font-weight: bold;
+    top: 0; 
+    right: 10px;
+}
+
+#referees p{
+    line-height: 1.3em;
+    margin: 0;
+}
+
+
+#referees h3{
+    line-height: 1em;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0 0;
+
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+
+.blur{
+    filter: blur(4px);
+}
+
+#contact-details a{
+    filter: blur(4px);
+}
+
+.content {
+    filter: blur(4px);
+}
