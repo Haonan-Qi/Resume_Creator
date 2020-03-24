@@ -107,7 +107,7 @@ section .heading{
     overflow: hidden;
 }
 
-.blur{
+/* .blur{
     filter: blur(4px);
 }
 
@@ -117,4 +117,4 @@ section .heading{
 
 .content {
     filter: blur(4px);
-}
+} */
