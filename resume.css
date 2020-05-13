@@ -23,8 +23,8 @@ a{
     background: white;
     /* for print version please AJUST below  css setting */
     margin: 80px auto;
-    /* border-radius: 0.2rem;
-    box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);     */
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);    
 }
 #page1{
     margin: 0 auto;
